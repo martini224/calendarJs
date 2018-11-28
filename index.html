@@ -1,3 +1,4 @@
+<!-- Exemple of use -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,13 +10,16 @@
 
 	<!-- JS -->
 	<script src="js/jQuery.min.js"></script>
-	<script src="js/poper.min.js"></script>
+	<script src="js/popper.min.js"></script>
 	<script src="js/jQuery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/calendar.js"></script>
 	<script>
 		$(document).ready(function(){
-			var calendar = new Calendar($("#calendar-container"), "fr");
+			$("#calendar-container").calendarJs({
+                lang : "fr",
+                withArrows : true
+            });
 		});
 	</script>
 

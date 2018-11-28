@@ -1,3 +1,14 @@
+/*!
+ * calendarJs JavaScript Library v1.0
+ * https://github.com/martini224/calendarJs
+ *
+ * Includes bootstrap.css
+ * https://getbootstrap.com/
+ *
+ * Copyright Martin Rouffiange (martini224) 2018
+ * Released under the MIT license (http://opensource.org/licenses/MIT)
+ */
+
 #calendar-container{
     padding: 25px;
 }
